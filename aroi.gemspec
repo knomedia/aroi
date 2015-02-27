@@ -8,6 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jason Madsen"]
   spec.email         = ["knomedia@gmail.com"]
   spec.summary       = %q{ActiveRecord Object Instrumenter: Instrument the creation of ActiveRecord objects}
+  spec.homepage      = "https://github.com/knomedia/aroi"
+  spec.license       = "MIT"
 
   spec.files         = Dir.glob("{lib,spec}/**/*") + %w(test.sh)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
