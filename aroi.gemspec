@@ -2,9 +2,11 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
+require 'aroi/version'
+
 Gem::Specification.new do |spec|
   spec.name          = "aroi"
-  spec.version       = "0.0.1"
+  spec.version       = Aroi::VERSION
   spec.authors       = ["Jason Madsen"]
   spec.email         = ["knomedia@gmail.com"]
   spec.summary       = %q{ActiveRecord Object Instrumenter: Instrument the creation of ActiveRecord objects}
