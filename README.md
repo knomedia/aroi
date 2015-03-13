@@ -1,5 +1,7 @@
 # aroi
 
+[![Build Status](https://travis-ci.org/knomedia/aroi.svg)](https://travis-ci.org/knomedia/aroi)
+
 (A)ctive (R)ecord (O)bject (I)nstrumenter
 
 Adds ActiveSupport::Notifications instrument calls to the creation of any
