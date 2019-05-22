@@ -1,2 +1,5 @@
 pkg/
 Gemfile.lock
+gemfiles/.bundle
+gemfiles/*.lock
+vendor
