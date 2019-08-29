@@ -7,6 +7,6 @@ gemfile:
   - gemfiles/rails_5.gemfile
   - gemfiles/rails_6.gemfile
 before_install:
-  - gem install -v 1.17.3 bundler --no-rdoc --no-ri
+  - gem install -v 1.17.3 bundler --no-document
   - bundle _1.17.3_ install
 script: "rspec spec"
