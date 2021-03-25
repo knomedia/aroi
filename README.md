@@ -1,5 +1,7 @@
 # aroi
 
+this project has been moved to [instructure/aroi](https://github.com/instructure/aroi)
+
 [![Build Status](https://travis-ci.org/knomedia/aroi.svg)](https://travis-ci.org/knomedia/aroi)
 
 (A)ctive (R)ecord (O)bject (I)nstrumenter
